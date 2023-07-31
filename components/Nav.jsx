@@ -64,7 +64,7 @@ function logo() {
         alt="logo"
         width={30}
         height={30}
-        className="object-contain hover:drop-shadow-sm"
+        className="object-contain"
       />
       <p className="logo_text ">Promtopia</p>
     </Link>

@@ -9,6 +9,6 @@ export const GET = async (req, { params: { id } }) => {
 
     return new Response(JSON.stringify(prompts, { status: 200 }));
   } catch (error) {
-    new Response("Failed to fetch AI prompts", { status: 500 });
+    return new Response("Failed to fetch AI prompts", { status: 500 });
   }
 };

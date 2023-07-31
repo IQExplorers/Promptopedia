@@ -48,6 +48,6 @@ export const DELETE = async (req, { params: { id } }) => {
 
     return new Response("Prompt successfully deleted!", { status: 200 });
   } catch (error) {
-    new Response("Failed to delete prompt", { status: 500 });
+    return new Response("Failed to delete prompt", { status: 500 });
   }
 };

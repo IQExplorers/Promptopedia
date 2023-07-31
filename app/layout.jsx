@@ -3,9 +3,6 @@ import "@styles/global.css";
 import Nav from "@components/Nav";
 import Provider from "@components/Provider";
 
-
-
-
 export const metadata = {
   title: "Promtopia",
   description: "Discover AI Promts world",

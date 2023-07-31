@@ -1,9 +1,7 @@
 import PromptCart from "./PromptCart";
 
 const Profile = ({ handleEdit, handleDelete, name, desc, data }) => {
-  console.log("user", name);
   
-  console.log("profileData", data);
   return (
     <section className="w-full">
       <h1 className="head_text text-left">
